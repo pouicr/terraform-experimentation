@@ -6,7 +6,7 @@ provider "heroku" {
 
 # Create a new application
 resource "heroku_app" "default" {
-    name = "my_app_from_tf"
+    name = "myappfromtf"
     region = "eu"
 }
 
